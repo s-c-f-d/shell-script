@@ -4,7 +4,7 @@
 - [2. Git Scripts（git 相关脚本）](#2-git-scriptsgit-相关脚本)
     - [2.1. Auto Pull](#21-auto-pull)
         - [2.1.1. Run actions（会进行的操作）](#211-run-actions会进行的操作)
-        - [2.1.2. CLI](#212-cli)
+        - [2.1.2. Install CLI (安装命令)](#212-install-cli-安装命令)
 
 <!-- /TOC -->
 
@@ -20,7 +20,7 @@ Some Commonly Used Shell Scripts.(一些常用的 Shell 脚本)
 * 4. Create a systemd service and a systemd timer to periodically execute downloaded dependent scripts.（<font color=green>创建一个 systemd service 和一个 systemd timer，用来定期执行下载的依赖脚本。</font>）
 * 5. Start and enable the systemd service and systemd timer.（<font color=green>启动并启用这个 systemd service 和 systemd timer。</font>）
 
-### 2.1.2. CLI
+### 2.1.2. Install CLI (安装命令)
 * One Key Install To Repo
     ```
     wget --no-check-certificate https://raw.githubusercontent.com/s-c-f-d/shell_script/master/install_auto_git_pull.sh && chmod a+x ./install_auto_git_pull.sh && ./install_auto_git_pull.sh
